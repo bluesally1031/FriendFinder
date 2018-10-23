@@ -1,4 +1,7 @@
-module.exports = [
+////////////////////////
+//  Storage of individual nerd data
+////////////////////////
+var friendsArray = [
   {
     "name": "Robert",
     "photo": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)#/media/File:Wakerlink.jpg",
@@ -78,5 +81,7 @@ module.exports = [
       2,
       4
     ]
-  },
-]
+  }
+];
+
+module.exports = friendsArray;
