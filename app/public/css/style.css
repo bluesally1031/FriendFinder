@@ -4,12 +4,6 @@ body {
     display: flex; 
     min-height: 100vh;
     flex-direction: column;
-    
-    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: purple;
-    background-color: aliceblue
 }
 
 header {
@@ -24,14 +18,36 @@ main {
     flex: 1 0 auto; 
 }
 
-h1 {
+main h1 {
     font-weight: bold;
 }
 
-h2 {
+main h2 {
     font-weight: 300;
 }
 
+#logo-icon {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#head-nav-links {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.mainpanel{
+   margin: 50px;
+}
+
+#mainpanel-content {
+    margin: 50px;
+}
 
 
 
